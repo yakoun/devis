@@ -1,0 +1,27 @@
+# Flutter
+.dart_tool/
+.packages
+build/
+*.iml
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+
+# Android
+local.properties
+*.keystore
+
+# iOS
+Pods/
+*.xcworkspace
+
+# Linux/Windows
+ephemeral/
+
+# Misc
+session_summary.md

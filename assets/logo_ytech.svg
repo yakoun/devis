@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400" width="500" height="400">
+  <rect width="500" height="400" fill="#ffffff" />
+  <g transform="translate(250, 160)">
+    <circle cx="0" cy="0" r="80" fill="none" stroke="#0055ff" stroke-width="3" stroke-dasharray="6 8" opacity="0.4" />
+    <path d="M-40,-60 C-20,-30 -10,-10 0,20" fill="none" stroke="#1e1e2f" stroke-width="9" stroke-linecap="round" />
+    <path d="M40,-60 C20,-30 10,-10 0,20" fill="none" stroke="#1e1e2f" stroke-width="9" stroke-linecap="round" />
+    <path d="M0,20 L0,65" fill="none" stroke="#1e1e2f" stroke-width="9" stroke-linecap="round" />
+    <line x1="-15" y1="42" x2="15" y2="42" stroke="#ff6600" stroke-width="4" stroke-linecap="round" />
+    <line x1="-10" y1="54" x2="10" y2="54" stroke="#ff6600" stroke-width="3" stroke-linecap="round" />
+    <circle cx="0" cy="0" r="10" fill="#0055ff" opacity="0.8" />
+    <circle cx="-45" cy="-45" r="5" fill="#0055ff">
+      <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="45" cy="-45" r="5" fill="#ff6600">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="0" cy="75" r="4" fill="#1e1e2f">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="1.5s" repeatCount="indefinite" />
+    </circle>
+    <line x1="-40" y1="-40" x2="-10" y2="-10" stroke="#0055ff" stroke-width="2" opacity="0.6" stroke-dasharray="4 4" />
+    <line x1="40" y1="-40" x2="10" y2="-10" stroke="#ff6600" stroke-width="2" opacity="0.6" stroke-dasharray="4 4" />
+    <line x1="0" y1="65" x2="0" y2="75" stroke="#1e1e2f" stroke-width="2" opacity="0.6" stroke-dasharray="3 3" />
+  </g>
+  <text x="250" y="280" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="42" font-weight="800" fill="#1e1e2f" text-anchor="middle" letter-spacing="1">
+    YTech Pro
+  </text>
+  <text x="250" y="320" font-family="'Segoe UI', Roboto, sans-serif" font-size="15" fill="#666666" text-anchor="middle" letter-spacing="3" font-weight="500">
+    ERP OFFLINE-FIRST
+  </text>
+  <text x="250" y="342" font-family="'Segoe UI', Roboto, sans-serif" font-size="12" fill="#999999" text-anchor="middle" letter-spacing="1">
+    pour artisans & PME
+  </text>
+</svg>
